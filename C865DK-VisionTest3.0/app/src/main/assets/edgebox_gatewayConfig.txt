@@ -1,0 +1,42 @@
+{
+	"device_type": "Camera",
+	"device_count": 24,
+	"device_attributes": [{
+			"key": "location",
+			"value": "deafult"
+		},
+		{
+			"key": "URL",
+			"value": "Url"
+		}
+	],
+	"devices_telemetry": [{
+			"key": "faceLocation",
+			"value": "online"
+		},
+		{
+			"key": "faceTimeCapture",
+			"value": "00000000"
+		},
+		{
+			"key": "faceCapturePicture",
+			"value": "null"
+		},
+		{
+			"key": "faceScenePicture",
+			"value": "null"
+		},
+		{
+			"key": "faceRtsp",
+			"value": "null"
+		}
+	],
+	"connectionConfig": {
+		"host": "192.168.1.132",
+		"port": 1884,
+		"username": "WkpBHUn2ztdoYtmJql0b",
+		"password": "",
+		"reetryInterval": 3000,
+		"connectionTimeout": 10000
+	}
+}

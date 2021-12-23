@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/rtps_header">
+
+        <ListPreference
+            android:defaultValue="by_Manual"
+            android:dialogTitle="Choose how to configure the video stream address"
+            android:entries="@array/list_getUrl_type"
+            android:entryValues="@array/list_getUrl_type_value"
+            android:title="Get the video stream method"
+            app:key="get_url_type"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            android:title="Manually configure rtsp stream"
+            app:isPreferenceVisible="false"
+            app:key="URL_Manual" />
+        <Preference
+            android:title="Rtsp stream configuration"
+            app:isPreferenceVisible="false"
+            app:key="rtsp" />
+    </PreferenceCategory>
+</PreferenceScreen>

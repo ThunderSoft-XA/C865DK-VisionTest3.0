@@ -1,0 +1,50 @@
+{
+	"device_type": "Camera",
+	"device_count": 4,
+	"device_attributes": [{
+			"key": "location",
+			"value": "deafult"
+		},
+		{
+			"key": "URL",
+			"value": "Url"
+		},
+		{
+			"key": "enable_face",
+			"value": true
+		},
+		{
+			"key": "enable_object",
+			"value": false
+		},
+                {
+                        "key": "enable_car",
+                        "value": false
+                }
+	],
+	"devices_telemetry": [{
+			"key": "faceLocation",
+			"value": "online"
+		},
+		{
+			"key": "TimeCapture",
+			"value": "00000000"
+		},
+		{
+			"key": "daily_flow",
+			"value": "0"
+		},
+		{
+			"key": "daily_sales",
+			"value": "0"
+		}
+	],
+	"connectionConfig": {
+		"host": "10.0.20.170",
+		"port": 1883,
+		"username": "SgHPFOVhYt2ziT0W0PGm",
+		"password": "",
+		"reetryInterval": 3000,
+		"connectionTimeout": 10000
+	}
+}

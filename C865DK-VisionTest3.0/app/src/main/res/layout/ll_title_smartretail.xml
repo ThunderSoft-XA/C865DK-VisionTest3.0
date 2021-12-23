@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="4">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@mipmap/jianbian_l"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/color_white"
+            android:shadowColor="@color/qmui_config_color_50_blue">
+        </ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:src="@mipmap/logo" />
+    <TextView
+        android:id="@+id/ll_smartrretail_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="5"
+        android:text="@string/title_Retail"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/_10dp"
+        android:shadowColor="@color/qmui_config_color_50_blue"
+        >
+    </TextView>
+        <ImageButton
+            android:id="@+id/ll_st_setting_ibtn"
+            android:background="@color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@mipmap/setting_icon" />
+        <ImageButton
+            android:id="@+id/ll_start"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/start" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
